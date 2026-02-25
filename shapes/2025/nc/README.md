@@ -1,0 +1,1 @@
+Accessed at [ncleg.gov](https://www.ncleg.gov/Committees/CommitteeInfo/HouseSelect/234/Documents/19985) on 2/24/2026.
