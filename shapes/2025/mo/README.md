@@ -1,1 +1,0 @@
-Accessed at [arcgis.com](https://data-msdis.opendata.arcgis.com/datasets/8c3c7afc83744d828e4501bafb6aad59_0/explore?location=38.144894%2C-91.363205%2C7) on 2/24/2026.

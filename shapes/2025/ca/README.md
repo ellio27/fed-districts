@@ -1,1 +1,0 @@
-Accessed at [ca.gov](https://selc.senate.ca.gov/proposed-congressional-map) on 2/24/2026.
