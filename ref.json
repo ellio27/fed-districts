@@ -1,0 +1,460 @@
+{
+    "shapes": {
+        "path": "https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/shapes/[YEAR]/[ST]/[CD].geojson",
+        
+        "states": {
+            "al": {
+                "years": [
+                    2023
+                ],
+                "sources": [
+                    "https://www.sos.alabama.gov/alabama-votes/state-district-maps"
+                ],
+                "updated": "2026-02-27"
+            },
+            "ak": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://github.com/unitedstates/districts/blob/gh-pages/cds/2012/AK-0/shape.geojson"
+                ],
+                "updated": "2026-02-27"
+            },
+            "az": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://redistricting-irc-az.hub.arcgis.com/datasets/a6e79c0cf9ce49319daacfede0734864/about"
+                ],
+                "updated": "2026-02-27"
+            },
+            "ar": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2021-arkansas-congressional-districts-2/"
+                ],
+                "updated": "2026-02-27"
+            },
+            "ca": {
+                "years": [
+                    2025
+                ],
+                "sources": [
+                    "https://selc.senate.ca.gov/proposed-congressional-map"
+                ],
+                "updated": "2026-02-24"
+            },
+            "co": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://coleg.app.box.com/s/ox0m8r6mj1c47py8hrz0kjnewwc2mo7f"
+                ],
+                "updated": "2026-02-27"
+            },
+            "ct": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2022-connecticut-congressional-districts-approved-plan/"
+                ],
+                "updated": "2026-02-27"
+            },
+            "de": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://github.com/unitedstates/districts/blob/gh-pages/cds/2016/DE-0/shape.geojson"
+                ],
+                "updated": "2026-02-27"
+            },
+            "fl": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://www.floridaredistricting.gov/pages/submitted-plans"
+                ],
+                "updated": "2026-02-27"
+            },
+            "ga": {
+                "years": [
+                    2023
+                ],
+                "sources": [
+                    "https://www.legis.ga.gov/joint-office/reapportionment"
+                ],
+                "updated": "2026-02-27"
+            },
+            "hi": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2022-hawaii-congressional-districts-approved-plan/"
+                ],
+                "updated": "2026-02-27"
+            },
+            "id": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2021-idaho-final-approved-congressional-districts/"
+                ],
+                "updated": "2026-02-27"
+            },
+            "il": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://ilhousedems.com/redistricting/"
+                ],
+                "updated": "2026-02-27"
+            },
+            "in": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://www.indianasenaterepublicans.com/2021-indiana-redistricting"
+                ],
+                "updated": "2026-02-27"
+            },
+            "ia": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://www.legis.iowa.gov/legislators/redistricting"
+                ],
+                "updated": "2026-02-27"
+            },
+            "ks": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2022-kansas-congressional-districts-approved-plan/"
+                ],
+                "updated": "2026-02-27"
+            },
+            "ky": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://legislature.ky.gov/Public%20Services/GIS/Pages/GIS-Data.aspx"
+                ],
+                "updated": "2026-02-27"
+            },
+            "la": {
+                "years": [
+                    2024,
+                    2022
+                ],
+                "sources": [
+                    "https://redist.legis.la.gov/default",
+                    "https://redist.legis.la.gov/ShapeFilesFromEnrolledBills"
+                ],
+                "updated": "2026-02-27"
+            },
+            "me": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://maine.hub.arcgis.com/datasets/0e4a31b61b714ba08a3e9b3c2b752d77/explore?location=45.079922%2C-68.974255%2C7"
+                ],
+                "updated": "2026-02-27"
+            },
+            "md": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://mgaleg.maryland.gov/Other/Redistricting/SB1012-CONGRESS/SB1012-webpage.pdf"
+                ],
+                "updated": "2026-02-27"
+            },
+            "ma": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://www.mass.gov/info-details/massgis-data-us-congressional-districts-118th"
+                ],
+                "updated": "2026-02-27"
+            },
+            "mi": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://gis-michigan.opendata.arcgis.com/datasets/michigan-u-s-congressional-districts-2021/about"
+                ],
+                "updated": "2026-02-27"
+            },
+            "mn": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://gis.lcc.mn.gov/html/download.html"
+                ],
+                "updated": "2026-02-27"
+            },
+            "ms": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2022-mississippi-congressional-districts-approved-plan/"
+                ],
+                "updated": "2026-02-27"
+            },
+            "mo": {
+                "years": [
+                    2025
+                ],
+                "sources": [
+                    "https://data-msdis.opendata.arcgis.com/datasets/8c3c7afc83744d828e4501bafb6aad59_0/explore?location=38.144894%2C-91.363205%2C7"
+                ],
+                "updated": "2026-02-24"
+            },
+            "mt": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2021-montana-cong-adopted-plan/"
+                ],
+                "updated": "2026-02-27"
+            },
+            "ne": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2021-nebraska-congressional-districts-adopted-plan/"
+                ],
+                "updated": "2026-02-27"
+            },
+            "nv": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2021-nevada-congressional-districts/"
+                ],
+                "updated": "2026-02-28"
+            },
+            "nh": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2022-new-hampshire-congressional-districts-plan-approved/"
+                ],
+                "updated": "2026-02-28"
+            },
+            "nj": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://www.njredistrictingcommission.org/adoption2022map.asp"
+                ],
+                "updated": "2026-02-28"
+            },
+            "nm": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://www.nmlegis.gov/Redistricting2021/Maps_And_Data?ID202=221711.1"
+                ],
+                "updated": "2026-02-28"
+            },
+            "ny": {
+                "years": [
+                    2024
+                ],
+                "sources": [
+                    "https://latfor.state.ny.us/maps/?sec=2024_congress"
+                ],
+                "updated": "2026-02-28"
+            },
+            "nc": {
+                "years": [
+                    2025
+                ],
+                "sources": [
+                    "https://www.ncleg.gov/Committees/CommitteeInfo/HouseSelect/234/Documents/19985"
+                ],
+                "updated": "2026-02-24"
+            },
+            "nd": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://github.com/unitedstates/districts/blob/gh-pages/cds/2016/ND-0/shape.geojson"
+                ],
+                "updated": "2026-02-27"
+            },
+            "oh": {
+                "years": [
+                    2025
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2025-ohio-congressional-districts-approved-plan/"
+                ],
+                "updated": "2026-02-24"
+            },
+            "ok": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2021-oklahoma-cong-adopted-plan/"
+                ],
+                "updated": "2026-02-28"
+            },
+            "or": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2021-oregon-congressional-districts-adopted-plan/"
+                ],
+                "updated": "2026-02-28"
+            },
+            "pa": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://www.pacourts.us/2022-redistricting-opinions"
+                ],
+                "updated": "2026-02-28"
+            },
+            "ri": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2022-rhode-island-congressional-districts-approved-plan/"
+                ],
+                "updated": "2026-02-28"
+            },
+            "sc": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2022-south-carolina-congressional-districts-approved-plan/"
+                ],
+                "updated": "2026-02-28"
+            },
+            "sd": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://github.com/unitedstates/districts/blob/gh-pages/cds/2016/SD-0/shape.geojson"
+                ],
+                "updated": "2026-02-27"
+            },
+            "tn": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2022-tennessee-congressional-districts-approved-plan/"
+                ],
+                "updated": "2026-02-28"
+            },
+            "tx": {
+                "years": [
+                    2025
+                ],
+                "sources": [
+                    "https://data.capitol.texas.gov/dataset/planc2333/resource/5712ebe1-d777-4d4a-b836-0534e17bca01"
+                ],
+                "updated": "2026-02-24"
+            },
+            "ut": {
+                "years": [
+                    2025
+                ],
+                "sources": [
+                    "https://opendata.gis.utah.gov/datasets/utah-us-congress-districts-2026-to-2032/about"
+                ],
+                "updated": "2026-02-24"
+            },
+            "vt": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://github.com/unitedstates/districts/blob/gh-pages/cds/2016/VT-0/shape.geojson"
+                ],
+                "updated": "2026-02-27"
+            },
+            "va": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://vacourts.app.box.com/s/2t0xgsmshemsveou2jx55h6tl38ml8jx?page=1"
+                ],
+                "updated": "2026-02-28"
+            },
+            "wa": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://redistrictingdatahub.org/dataset/2022-washington-congressional-districts-approved-plan/"
+                ],
+                "updated": "2026-02-28"
+            },
+            "wv": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://www.wvlegislature.gov/redistricting.cfm"
+                ],
+                "updated": "2026-02-28"
+            },
+            "wi": {
+                "years": [
+                    2022
+                ],
+                "sources": [
+                    "https://www.dropbox.com/scl/fo/026gdu8pb87cjos647k28/AI3X3c_noYPNJRfblZzUkcc?rlkey=o7wes3ouoi8w665lkd59o0im3&e=1&dl=0"
+                ],
+                "updated": "2026-02-28"
+            },
+            "wy": {
+                "years": [
+                    2021
+                ],
+                "sources": [
+                    "https://github.com/unitedstates/districts/blob/gh-pages/cds/2016/WY-0/shape.geojson"
+                ],
+                "updated": "2026-02-27"
+            }
+        }
+    }
+}
