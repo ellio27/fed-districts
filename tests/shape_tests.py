@@ -2,6 +2,7 @@ import json
 import os
 import re
 import unittest
+from datetime import date
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REF_PATH = os.path.join(BASE_DIR, "ref.json")
@@ -50,7 +51,7 @@ class TestRefJson(unittest.TestCase):
         bad = []
         for st, entries in STATES.items():
             for i, entry in enumerate(entries):
-                for field in ("adopted", "districts", "source"):
+                for field in ("enacted", "districts", "source"):
                     if field not in entry:
                         bad.append(f"{st}[{i}] missing '{field}'")
         self.assertEqual(bad, [], f"Entries missing required fields: {bad}")
@@ -78,6 +79,25 @@ class TestRefJson(unittest.TestCase):
             435,
             f"Expected 435 districts, found {total}. Per-state counts: {counts}",
         )
+
+    def test_firstCongress_after_enacted(self):
+        """firstCongress year must be after the enacted date for every entry."""
+        bad = []
+        for st, entries in STATES.items():
+            for i, entry in enumerate(entries):
+                enacted = entry.get("enacted")
+                first_congress = entry.get("firstCongress")
+                if enacted is None or first_congress is None:
+                    continue
+                enacted_date = date.fromisoformat(enacted)
+                # firstCongress is a year (int); the congress starts Jan 3
+                congress_start = date(first_congress, 1, 3)
+                if congress_start <= enacted_date:
+                    bad.append(
+                        f"{st}[{i}]: firstCongress {first_congress} "
+                        f"is not after enacted {enacted}"
+                    )
+        self.assertEqual(bad, [], f"firstCongress not after enacted: {bad}")
 
 
 class TestDistrictNaming(unittest.TestCase):
