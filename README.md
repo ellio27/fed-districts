@@ -18,6 +18,8 @@ The file `ref.json` contains the required parameters to access all data in this 
 * *hhi*: Household income by district.
     * The data year of the score is needed to fill in the path.
     * The `complete` field specifies whether or not this dataset contains all districts. This is set to false when adding updates (mainly for mid-decade redistricting).
+    * Remember to check if a district has been redrawn since this data was collected. You can do this by comparing the `year` date of the map in `hhi` with the `firstCongress` date of the map in `shapes`.
+        * When using data from different years, remember to correct for inflation.
 
 Additional useful information:
 * Districts are always referred to by two-digit codes (including leading zeroes; at large districts are `00`).
