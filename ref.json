@@ -1,6 +1,7 @@
 {
     "shapes": {
-        "path": "https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/shapes/[YEAR]/[ST]/[CD].geojson",
+        "absPath": "https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/shapes/[YEAR]/[ST]/[CD].geojson",
+        "relPath": "shapes/[YEAR]/[ST]/[CD].geojson",
         "updated": "2026-03-01",
 
         "states": {
@@ -414,7 +415,8 @@
     },
 
     "cook": {
-        "path": "https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/cook/[YEAR].csv",
+        "absPath": "https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/cook/[YEAR].csv",
+        "relPath": "cook/[YEAR].csv",
 
         "reports": [
             {
@@ -424,6 +426,28 @@
             {
                 "published": "2023-04-05",
                 "source": "https://www.cookpolitical.com/cook-pvi/2023-partisan-voting-index/118-district-map-and-list"
+            }
+        ]
+    },
+
+    "hhi": {
+        "absPath": "https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/hhi/[YEAR].csv",
+        "relPath": "hhi/[YEAR].csv",
+
+        "reports": [
+            {
+                "year": "2025",
+                "complete": false,
+                "sources": [
+                    
+                ]
+            },
+            {
+                "year": "2024",
+                "complete": true,
+                "sources": [
+                    "https://data.census.gov/table?q=DP03&g=010XX00US$5000000"
+                ]
             }
         ]
     }
