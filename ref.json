@@ -7,7 +7,7 @@
         "states": {
             "al": [
                 {
-                    "firstCongress": 2024,
+                    "firstCongress": 2025,
                     "enacted": "2023-10-05",
                     "districts": 7,
                     "source": "https://www.sos.alabama.gov/alabama-votes/state-district-maps"
@@ -435,13 +435,6 @@
         "relPath": "econ/[YEAR].csv",
 
         "reports": [
-            {
-                "year": "2025",
-                "complete": false,
-                "sources": [
-
-                ]
-            },
             {
                 "year": "2024",
                 "complete": true,
