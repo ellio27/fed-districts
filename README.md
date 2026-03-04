@@ -15,10 +15,11 @@ The file `ref.json` contains the required parameters to access all data in this 
 * *pvi*: Cook PVI scores by district.
     * The publishing year of the score is needed to fill in the path.
     * Remember to check if a district has been redrawn since this data was published. You can do this by comparing the `published` date of the map in `pvi` with the `firstCongress` date of the map in `shapes`.
-* *hhi*: Household income by district.
+* *econ*: Various economic values (such as income) by district.
     * The data year of the score is needed to fill in the path.
     * The `complete` field specifies whether or not this dataset contains all districts. This is set to false when adding updates (mainly for mid-decade redistricting).
-    * Remember to check if a district has been redrawn since this data was collected. You can do this by comparing the `year` date of the map in `hhi` with the `firstCongress` date of the map in `shapes`.
+        * Note that `complete` being true does NOT mean all data values are filled in. Just that some data is available for each district.
+    * Remember to check if a district has been redrawn since this data was collected. You can do this by comparing the `year` date of the map in `econ` with the `firstCongress` date of the map in `shapes`.
         * When using data from different years, remember to correct for inflation.
 
 Additional useful information:

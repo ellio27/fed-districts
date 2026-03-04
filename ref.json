@@ -430,16 +430,16 @@
         ]
     },
 
-    "hhi": {
-        "absPath": "https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/hhi/[YEAR].csv",
-        "relPath": "hhi/[YEAR].csv",
+    "econ": {
+        "absPath": "https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/econ/[YEAR].csv",
+        "relPath": "econ/[YEAR].csv",
 
         "reports": [
             {
                 "year": "2025",
                 "complete": false,
                 "sources": [
-                    
+
                 ]
             },
             {
