@@ -15,8 +15,8 @@
             ],
             "ak": [
                 {
-                    "firstCongress": 2001,
-                    "enacted": "2000-01-01",
+                    "firstCongress": 2021,
+                    "enacted": "2020-01-01",
                     "districts": 1,
                     "source": "https://github.com/unitedstates/districts/blob/gh-pages/cds/2012/AK-0/shape.geojson"
                 }
@@ -63,8 +63,8 @@
             ],
             "de": [
                 {
-                    "firstCongress": 2001,
-                    "enacted": "2000-01-01",
+                    "firstCongress": 2021,
+                    "enacted": "2020-01-01",
                     "districts": 1,
                     "source": "https://github.com/unitedstates/districts/blob/gh-pages/cds/2016/DE-0/shape.geojson"
                 }
@@ -157,10 +157,10 @@
             ],
             "me": [
                 {
-                    "firstCongress": 2025,
-                    "enacted": "2023-09-29",
+                    "firstCongress": 2023,
+                    "enacted": "2021-09-29",
                     "districts": 2,
-                    "source": "2026-02-27"
+                    "source": "https://maine.hub.arcgis.com/datasets/0e4a31b61b714ba08a3e9b3c2b752d77/explore?location=45.079922%2C-68.974255%2C7"
                 }
             ],
             "md": [
@@ -181,16 +181,16 @@
             ],
             "mi": [
                 {
-                    "firstCongress": 2027,
-                    "enacted": "2024-07-26",
+                    "firstCongress": 2023,
+                    "enacted": "2022-03-26",
                     "districts": 13,
                     "source": "https://gis-michigan.opendata.arcgis.com/datasets/michigan-u-s-congressional-districts-2021/about"
                 }
             ],
             "mn": [
                 {
-                    "firstCongress": 2025,
-                    "enacted": "2023-05-24",
+                    "firstCongress": 2023,
+                    "enacted": "2022-06-02",
                     "districts": 8,
                     "source": "https://gis.lcc.mn.gov/html/download.html"
                 }
@@ -277,8 +277,8 @@
             ],
             "nd": [
                 {
-                    "firstCongress": 2001,
-                    "enacted": "2000-01-01",
+                    "firstCongress": 2021,
+                    "enacted": "2020-01-01",
                     "districts": 1,
                     "source": "https://github.com/unitedstates/districts/blob/gh-pages/cds/2016/ND-0/shape.geojson"
                 }
@@ -333,8 +333,8 @@
             ],
             "sd": [
                 {
-                    "firstCongress": 2001,
-                    "enacted": "2000-01-01",
+                    "firstCongress": 2021,
+                    "enacted": "2020-01-01",
                     "districts": 1,
                     "source": "https://github.com/unitedstates/districts/blob/gh-pages/cds/2016/SD-0/shape.geojson"
                 }
@@ -365,8 +365,8 @@
             ],
             "vt": [
                 {
-                    "firstCongress": 2001,
-                    "enacted": "2000-01-01",
+                    "firstCongress": 2021,
+                    "enacted": "2020-01-01",
                     "districts": 1,
                     "source": "https://github.com/unitedstates/districts/blob/gh-pages/cds/2016/VT-0/shape.geojson"
                 }
@@ -405,8 +405,8 @@
             ],
             "wy": [
                 {
-                    "firstCongress": 2001,
-                    "enacted": "2000-01-01",
+                    "firstCongress": 2021,
+                    "enacted": "2020-01-01",
                     "districts": 1,
                     "source": "https://www.dropbox.com/scl/fo/026gdu8pb87cjos647k28/AI3X3c_noYPNJRfblZzUkcc?rlkey=o7wes3ouoi8w665lkd59o0im3&e=1&dl=0"
                 }

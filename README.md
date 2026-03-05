@@ -11,7 +11,7 @@ The file `ref.json` contains the required parameters to access all data in this 
 * *shapes*: A map of a district, usually precise to a couple meters.
     * Each state has an entry in `states`. Each state's entry is composed of a list of maps, with their first congress year, adoption date, district count, and source.
         * `firstCongress` is the year when the first Congress using this map will be convened.
-    * To complete the path to the `geojson`, use the year from the `enacted` field.
+    * To complete the path to the `geojson`, use the year from the `firstCongress` field.
 * *pvi*: Cook PVI scores by district.
     * The publishing year of the score is needed to fill in the path.
     * Remember to check if a district has been redrawn since this data was published. You can do this by comparing the `published` date of the map in `pvi` with the `firstCongress` date of the map in `shapes`.
@@ -23,6 +23,7 @@ The file `ref.json` contains the required parameters to access all data in this 
 Additional useful information:
 * Districts are always referred to by two-digit codes (including leading zeroes; at large districts are `00`).
 * Entries are in reverse chronological order so the most recent is at the first index.
+* This repo does not include any data from before 2020. Note this is why the at-large districts are marked as being enacted on Jan 1, 2020.
 
 
 # Errors
