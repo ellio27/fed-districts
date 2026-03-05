@@ -43,6 +43,12 @@
                     "enacted": "2025-11-04",
                     "districts": 52,
                     "source": "https://selc.senate.ca.gov/proposed-congressional-map"
+                },
+                {
+                    "firstCongress": 2023,
+                    "enacted": "2021-12-27",
+                    "districts": 52,
+                    "source": "https://wedrawthelines.ca.gov/final-maps/"
                 }
             ],
             "co": [
@@ -209,6 +215,12 @@
                     "enacted": "2025-09-28",
                     "districts": 8,
                     "source": "https://data-msdis.opendata.arcgis.com/datasets/8c3c7afc83744d828e4501bafb6aad59_0/explore?location=38.144894%2C-91.363205%2C7"
+                },
+                {
+                    "firstCongress": 2023,
+                    "enacted": "2022-05-18",
+                    "districts": 8,
+                    "source": "https://redistrictingdatahub.org/dataset/2022-missouri-congressional-districts-approved-plan/"
                 }
             ],
             "mt": [
@@ -273,6 +285,18 @@
                     "enacted": "2025-10-22",
                     "districts": 14,
                     "source": "https://www.ncleg.gov/Committees/CommitteeInfo/HouseSelect/234/Documents/19985"
+                },
+                {
+                    "firstCongress": 2025,
+                    "enacted": "2023-10-25",
+                    "districts": 14,
+                    "source": "https://redistrictingdatahub.org/dataset/2024-north-carolina-congressional-districts-approved-plan/"
+                },
+                {
+                    "firstCongress": 2023,
+                    "enacted": "2021-11-04",
+                    "districts": 14,
+                    "source": "https://redistrictingdatahub.org/dataset/2022-north-carolina-congressional-districts-approved-plan/"
                 }
             ],
             "nd": [
@@ -289,6 +313,12 @@
                     "enacted": "2025-10-31",
                     "districts": 15,
                     "source": "https://redistrictingdatahub.org/dataset/2025-ohio-congressional-districts-approved-plan/"
+                },
+                {
+                    "firstCongress": 2023,
+                    "enacted": "2022-03-22",
+                    "districts": 15,
+                    "source": "https://redistrictingdatahub.org/dataset/2022-ohio-congressional-districts-approved-plan/"
                 }
             ],
             "ok": [
@@ -353,6 +383,12 @@
                     "enacted": "2025-08-29",
                     "districts": 38,
                     "source": "https://data.capitol.texas.gov/dataset/planc2333/resource/5712ebe1-d777-4d4a-b836-0534e17bca01"
+                },
+                {
+                    "firstCongress": 2023,
+                    "enacted": "2021-10-25",
+                    "districts": 38,
+                    "source": "https://data.capitol.texas.gov/dataset/planc2193"
                 }
             ],
             "ut": [
@@ -361,6 +397,12 @@
                     "enacted": "2025-10-06",
                     "districts": 4,
                     "source": "https://opendata.gis.utah.gov/datasets/utah-us-congress-districts-2026-to-2032/about"
+                },
+                {
+                    "firstCongress": 2023,
+                    "enacted": "2021-11-16",
+                    "districts": 4,
+                    "source": "https://citygate.utleg.gov/legdistricting/utah/comment_links#"
                 }
             ],
             "vt": [

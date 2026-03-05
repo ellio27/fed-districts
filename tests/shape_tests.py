@@ -99,6 +99,15 @@ class TestRefJson(unittest.TestCase):
                     )
         self.assertEqual(bad, [], f"firstCongress not after enacted: {bad}")
 
+    def test_entries_in_reverse_chronological_order(self):
+        """Entries for each state must be ordered by firstCongress descending."""
+        bad = []
+        for st, entries in STATES.items():
+            years = [e["firstCongress"] for e in entries]
+            if years != sorted(years, reverse=True):
+                bad.append(f"{st}: {years}")
+        self.assertEqual(bad, [], f"Entries not in reverse chronological order: {bad}")
+
 
 class TestDistrictNaming(unittest.TestCase):
     """All district files must be named XX.geojson where XX is two digits."""
