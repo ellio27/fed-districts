@@ -51,7 +51,7 @@ class TestRefJson(unittest.TestCase):
         bad = []
         for st, entries in STATES.items():
             for i, entry in enumerate(entries):
-                for field in ("enacted", "districts", "source"):
+                for field in ("firstCongress", "enacted", "districts", "source"):
                     if field not in entry:
                         bad.append(f"{st}[{i}] missing '{field}'")
         self.assertEqual(bad, [], f"Entries missing required fields: {bad}")
@@ -140,17 +140,18 @@ class TestYearFolders(unittest.TestCase):
                     empty.append(f"{st}/{year}")
         self.assertEqual(empty, [], f"Folders with no district files: {empty}")
 
-    def test_entry_count_matches_folder_count(self):
-        """Number of ref.json entries per state should match number of year folders."""
+    def test_firstCongress_years_match_folders(self):
+        """Each entry's firstCongress value should have a matching year folder and vice versa."""
         mismatched = []
         for st, entries in STATES.items():
-            year_folders = get_year_folders(st)
-            if len(entries) != len(year_folders):
+            entry_years = sorted(e["firstCongress"] for e in entries)
+            folder_years = get_year_folders(st)
+            if entry_years != folder_years:
                 mismatched.append(
-                    f"{st}: {len(entries)} entries, {len(year_folders)} folders"
+                    f"{st}: firstCongress={entry_years}, folders={folder_years}"
                 )
         self.assertEqual(
-            mismatched, [], f"Entry/folder count mismatches: {mismatched}"
+            mismatched, [], f"firstCongress/folder mismatches: {mismatched}"
         )
 
 
