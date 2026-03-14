@@ -52,6 +52,13 @@ Additional useful information:
 * This repo does not include any data from before 2020. Note this is why the at-large districts are marked as being enacted on Jan 1, 2020.
 
 
+# Combined Shapes
+
+The script `scripts/combine-cds.py` contains code for creating a combined map of all districts. Details about the parameters (defined as globals in the script) are in the script itself. The script MUST be run from the root directory of this repo (e.g. `python3 scripts/combine-cds.py`).
+
+The output is placed in an `output` folder. Some pre-built data is available in `artifacts`.
+
+
 # Errors
 
 If you find any errors, please report them through the github issues tab.
