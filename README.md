@@ -7,7 +7,7 @@ This is a compilation of data on congressional districts, made to be easily acce
 
 If you just want to browse and download a few files, you do not need to read this. If you want to efficiently scrape the data, this section will be useful.
 
-The file `ref.json` contains the required parameters to access all data in this repo. Each top level entry is a type of data (more information below). Inside that entry is an entry called `absPath`, which provides a URL to access the data (there is also `relPath` for use locally). You must replace the bracketed parameters with the appropriate information by state and by district. Below is a type-by-type description of the available data and its parameters.
+The file `ref.json` contains the required parameters to access all data in this repo. Each top level entry is a type of data (more information below). Inside that entry is an entry called `relPath`, which provides the relative path from the root of the repo. You must replace the bracketed parameters with the appropriate information by state and by district. Below is a type-by-type description of the available data and its parameters.
 * *shapes*: A map of a district, usually precise to a couple meters.
     * Each state has an entry in `states`. Each state's entry is composed of a list of maps, with their first congress year, adoption date, district count, and source.
         * `firstCongress` is the year when the first Congress using this map will be convened.
@@ -44,12 +44,17 @@ The file `ref.json` contains the required parameters to access all data in this 
             * `_nonInstTotalPop`: Total non-institutionalized population
             * `_covered`: Total people covered on health insurance (note this is less than the sum of private & public)
             * `_private` and `_public` and `_none`: People with private/public/no health coverage
-
+* *results*: Election results by congressional district
+    * The year of the election and the type of election (house/president) is needed to access the data.
+    * The `DEM` and `REP` are the results that all Democrat and Republic candidates received, respectively. `MARGIN` is the difference between those vote shares. `REMAIN` is the remaining vote share.
+        * For multiple-round elections, only the final round is used.
+    * Special elections and primaries are not included.
 
 Additional useful information:
 * Districts are always referred to by two-digit codes (including leading zeroes; at large districts are `00`).
 * Entries are in reverse chronological order so the most recent is at the first index.
 * This repo does not include any data from before 2020. Note this is why the at-large districts are marked as being enacted on Jan 1, 2020.
+* Access the raw data at `https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/`
 
 
 # Combined Shapes

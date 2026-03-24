@@ -1,6 +1,5 @@
 {
     "shapes": {
-        "absPath": "https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/shapes/[YEAR]/[ST]/[CD].geojson",
         "relPath": "shapes/[YEAR]/[ST]/[CD].geojson",
         "updated": "2026-03-01",
 
@@ -457,7 +456,6 @@
     },
 
     "cook": {
-        "absPath": "https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/cook/[YEAR].csv",
         "relPath": "cook/[YEAR].csv",
 
         "reports": [
@@ -473,15 +471,45 @@
     },
 
     "econ": {
-        "absPath": "https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/econ/[YEAR].csv",
         "relPath": "econ/[YEAR].csv",
 
         "reports": [
             {
-                "year": "2024",
+                "year": 2024,
                 "complete": true,
                 "sources": [
                     "https://data.census.gov/table?q=DP03&g=010XX00US$5000000"
+                ]
+            }
+        ]
+    },
+
+    "results": {
+        "relPath": "results/[YEAR]/[TYPE].csv",
+
+        "years": [
+            {
+                "year": 2024,
+                "types": [ "president", "house" ],
+                "sources": [
+                    "https://www.the-downballot.com/p/the-downballots-calculations-of-presidential",
+                    "https://github.com/fivethirtyeight/election-results/blob/main/election_results_house.csv"
+                ]
+            },
+            {
+                "year": 2022,
+                "types": [ "house" ],
+                "sources": [
+                    "https://github.com/fivethirtyeight/election-results/blob/main/election_results_house.csv",
+                    "https://github.com/fivethirtyeight/election-results/blob/main/election_results_house.csv"
+                ]
+            },
+            {
+                "year": 2020,
+                "types": [ "president", "house" ],
+                "sources": [
+                    "https://www.the-downballot.com/p/the-downballots-calculations-of-presidential",
+                    "https://github.com/fivethirtyeight/election-results/blob/main/election_results_house.csv"
                 ]
             }
         ]
