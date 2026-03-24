@@ -57,16 +57,17 @@ Additional useful information:
 * Access the raw data at `https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/`
 
 
-# Combined Shapes
+# Useful Scripts
 
-The script `scripts/combine-cds.py` contains code for creating a combined map of all districts. Details about the parameters (defined as globals in the script) are in the script itself. The script MUST be run from the root directory of this repo (e.g. `python3 scripts/combine-cds.py`).
+Useful scripts are in the `scripts` folder.
 
-The output is placed in an `output` folder. Some pre-built data is available in `artifacts`.
+* `combine-cds.py` contains code for creating a combined map of all districts. Details about the parameters (defined as globals in the script) are in the script itself. The script MUST be run from the root directory of this repo (e.g. `python3 scripts/combine-cds.py`).
+    * The output is placed in an `output` folder. Some pre-built data is available in `artifacts`.
 
 
 # Errors
 
-If you find any errors, please report them through the github issues tab.
+If you find any errors, please report them through the Github issues tab.
 
 
 # Credits and Usage
