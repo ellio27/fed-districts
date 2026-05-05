@@ -76,6 +76,12 @@
             ],
             "fl": [
                 {
+                    "firstCongress": 2027,
+                    "enacted": "2025-05-04",
+                    "districts": 28,
+                    "source": "https://redistrictingdatahub.org/dataset/2026-florida-congressional-districts-approved-plan/"
+                },
+                {
                     "firstCongress": 2023,
                     "enacted": "2022-04-22",
                     "districts": 28,
