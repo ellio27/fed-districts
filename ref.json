@@ -376,6 +376,12 @@
             ],
             "tn": [
                 {
+                    "firstCongress": 2027,
+                    "enacted": "2026-05-08",
+                    "districts": 9,
+                    "source": "https://redistrictingdatahub.org/dataset/2026-tennessee-congressional-districts-approved-plan/"
+                },
+                {
                     "firstCongress": 2023,
                     "enacted": "2022-02-06",
                     "districts": 9,
