@@ -6,6 +6,12 @@
         "states": {
             "al": [
                 {
+                    "firstCongress": 2027,
+                    "enacted": "2026-06-02",
+                    "districts": 7,
+                    "source": "https://redistrictingdatahub.org/dataset/2026-alabama-congressional-districts-approved-plan/"
+                },
+                {
                     "firstCongress": 2025,
                     "enacted": "2023-10-05",
                     "districts": 7,
@@ -153,6 +159,12 @@
                 }
             ],
             "la": [
+                {
+                    "firstCongress": 2027,
+                    "enacted": "2026-05-29",
+                    "districts": 6,
+                    "source": "https://redistrictingdatahub.org/dataset/2026-louisiana-congressional-districts-approved-plan/"
+                },
                 {
                     "firstCongress": 2025,
                     "enacted": "2024-01-22",

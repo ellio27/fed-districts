@@ -55,6 +55,7 @@ Additional useful information:
 * Entries are in reverse chronological order so the most recent is at the first index.
 * This repo does not include any data from before 2020. Note this is why the at-large districts are marked as being enacted on Jan 1, 2020.
 * Access the raw data at `https://raw.githubusercontent.com/ellio27/fed-districts/refs/heads/main/`
+* Breaking up a shape file: open in QGIS, Export > Save Feature As, pick geojson and default CRS, check Add Saved File to Map, Vector > Data Management Tools > Split Vector Layer, choose geojson and make sure field is correct
 
 
 # Useful Scripts
